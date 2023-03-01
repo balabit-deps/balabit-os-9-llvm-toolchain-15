@@ -1,12 +1,18 @@
-llvm-toolchain-15 (1:15.0.6-3~ubuntu0.22.04.2) jammy; urgency=medium
+llvm-toolchain-15 (1:15.0.7-0ubuntu0.22.04.1) jammy; urgency=medium
 
-  * Bootstrap build #2, bump to build with llvm-spirv-15. (LP: #1991761)
+  * New upstream stable release. (LP: #2008755)
 
- -- Timo Aaltonen <tjaalton@debian.org>  Thu, 15 Dec 2022 16:25:28 +0200
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 01 Mar 2023 15:58:23 +0200
 
-llvm-toolchain-15 (1:15.0.6-3~ubuntu0.22.04.1) jammy; urgency=medium
+llvm-toolchain-15 (1:15.0.6-3~ubuntu0.22.10.2) kinetic; urgency=medium
 
-  * Backport to jammy. (LP: #1991761)
+  * Bootstrap build #2, bump to build with llvm-spirv-15. (LP: #1998900)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 15 Dec 2022 17:17:27 +0200
+
+llvm-toolchain-15 (1:15.0.6-3~ubuntu0.22.10.1) kinetic; urgency=medium
+
+  * Backport to kinetic. (LP: #1998900)
     - bootstrap build #1: verify that this is built with llvm-spirv-14
 
  -- Timo Aaltonen <tjaalton@debian.org>  Wed, 14 Dec 2022 19:11:31 +0200

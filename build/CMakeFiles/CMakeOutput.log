@@ -1,0 +1,2392 @@
+The system is: Linux - 5.4.0-4-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/3.24.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/3.24.3/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+cc (Debian 12.2.0-11) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f6166 && [1/2] Building C object CMakeFiles/cmTC_f6166.dir/CMakeCCompilerABI.c.o
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-11' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-11) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f6166.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f6166.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f6166.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccWtCFhk.s
+GNU C17 (Debian 12.2.0-11) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1 differs from library version 4.1.0.
+warning: MPC header version 1.3.1 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 12.2.0-11) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1 differs from library version 4.1.0.
+warning: MPC header version 1.3.1 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ddc36f51135fbbb95364503b5d28efbf
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f6166.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f6166.dir/'
+ as -v --64 -o CMakeFiles/cmTC_f6166.dir/CMakeCCompilerABI.c.o /tmp/ccWtCFhk.s
+GNU assembler version 2.39.50 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.39.50.20221224
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f6166.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f6166.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_f6166
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-11' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-11) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f6166' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f6166.'
+ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZcM4LN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f6166 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_f6166.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f6166' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f6166.'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_f6166 && [1/2] Building C object CMakeFiles/cmTC_f6166.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-11' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-11) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f6166.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f6166.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f6166.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccWtCFhk.s]
+  ignore line: [GNU C17 (Debian 12.2.0-11) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.3.1 differs from library version 1.2.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 12.2.0-11) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.3.1 differs from library version 1.2.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ddc36f51135fbbb95364503b5d28efbf]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f6166.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f6166.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_f6166.dir/CMakeCCompilerABI.c.o /tmp/ccWtCFhk.s]
+  ignore line: [GNU assembler version 2.39.50 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.39.50.20221224]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f6166.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f6166.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C executable cmTC_f6166]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-11' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-11) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f6166' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f6166.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZcM4LN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f6166 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_f6166.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZcM4LN.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f6166] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_f6166.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a5cbe && [1/2] Building CXX object CMakeFiles/cmTC_a5cbe.dir/CMakeCXXCompilerABI.cpp.o
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-11' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-11) 
+COLLECT_GCC_OPTIONS='-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_a5cbe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5cbe.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a5cbe.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++17 -version -fasynchronous-unwind-tables -o /tmp/ccssr6a6.s
+GNU C++17 (Debian 12.2.0-11) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1 differs from library version 4.1.0.
+warning: MPC header version 1.3.1 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/12
+ /usr/include/x86_64-linux-gnu/c++/12
+ /usr/include/c++/12/backward
+ /usr/lib/gcc/x86_64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Debian 12.2.0-11) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1 differs from library version 4.1.0.
+warning: MPC header version 1.3.1 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8dcef1deb4ca216d59468430872293ba
+COLLECT_GCC_OPTIONS='-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_a5cbe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5cbe.dir/'
+ as -v --64 -o CMakeFiles/cmTC_a5cbe.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccssr6a6.s
+GNU assembler version 2.39.50 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.39.50.20221224
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_a5cbe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5cbe.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_a5cbe
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-11' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-11) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a5cbe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a5cbe.'
+ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZ2IBZQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a5cbe /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_a5cbe.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a5cbe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a5cbe.'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/12]
+    add: [/usr/include/x86_64-linux-gnu/c++/12]
+    add: [/usr/include/c++/12/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/12] ==> [/usr/include/c++/12]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/12] ==> [/usr/include/x86_64-linux-gnu/c++/12]
+  collapse include dir [/usr/include/c++/12/backward] ==> [/usr/include/c++/12/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/12;/usr/include/x86_64-linux-gnu/c++/12;/usr/include/c++/12/backward;/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_a5cbe && [1/2] Building CXX object CMakeFiles/cmTC_a5cbe.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-11' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-11) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_a5cbe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5cbe.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a5cbe.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++17 -version -fasynchronous-unwind-tables -o /tmp/ccssr6a6.s]
+  ignore line: [GNU C++17 (Debian 12.2.0-11) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.3.1 differs from library version 1.2.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/12]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/12]
+  ignore line: [ /usr/include/c++/12/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Debian 12.2.0-11) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.3.1 differs from library version 1.2.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 8dcef1deb4ca216d59468430872293ba]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_a5cbe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5cbe.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_a5cbe.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccssr6a6.s]
+  ignore line: [GNU assembler version 2.39.50 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.39.50.20221224]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-std=gnu++17' '-o' 'CMakeFiles/cmTC_a5cbe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5cbe.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_a5cbe]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-11' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-gRbBs2/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-11) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a5cbe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a5cbe.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZ2IBZQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a5cbe /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_a5cbe.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZ2IBZQ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a5cbe] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_a5cbe.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e4b41 && [1/2] Building C object CMakeFiles/cmTC_e4b41.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e4b41
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d3ac6 && [1/2] Building C object CMakeFiles/cmTC_d3ac6.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d3ac6
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c8e4b && [1/2] Building C object CMakeFiles/cmTC_c8e4b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c8e4b
+
+
+
+Determining if the include file link.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_00182 && [1/2] Building C object CMakeFiles/cmTC_00182.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_00182
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6cb17 && [1/2] Building C object CMakeFiles/cmTC_6cb17.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6cb17
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_2ae30 && [1/2] Building C object CMakeFiles/cmTC_2ae30.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_2ae30
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_cc7a2 && [1/2] Building C object CMakeFiles/cmTC_cc7a2.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_cc7a2
+
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_2b6cd && [1/2] Building C object CMakeFiles/cmTC_2b6cd.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_2b6cd
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_28107 && [1/2] Building C object CMakeFiles/cmTC_28107.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_28107
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_15266 && [1/2] Building C object CMakeFiles/cmTC_15266.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_15266
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_288cd && [1/2] Building C object CMakeFiles/cmTC_288cd.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_288cd
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5e26d && [1/2] Building C object CMakeFiles/cmTC_5e26d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_5e26d
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ed4e7 && [1/2] Building C object CMakeFiles/cmTC_ed4e7.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ed4e7
+
+
+
+Determining if the include file sysexits.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a26f5 && [1/2] Building C object CMakeFiles/cmTC_a26f5.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a26f5
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_01fbc && [1/2] Building C object CMakeFiles/cmTC_01fbc.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_01fbc
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1128a && [1/2] Building C object CMakeFiles/cmTC_1128a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_1128a
+
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f5064 && [1/2] Building C object CMakeFiles/cmTC_f5064.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f5064
+
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f8796 && [1/2] Building C object CMakeFiles/cmTC_f8796.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f8796
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_07643 && [1/2] Building C object CMakeFiles/cmTC_07643.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_07643
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file linux/magic.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_19276 && [1/2] Building C object CMakeFiles/cmTC_19276.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_19276
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9c2c1 && [1/2] Building C object CMakeFiles/cmTC_9c2c1.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_9c2c1
+
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_68851 && [1/2] Building C object CMakeFiles/cmTC_68851.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_68851
+
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_099ed && [1/2] Building C object CMakeFiles/cmTC_099ed.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_099ed
+
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c98af && [1/2] Building C object CMakeFiles/cmTC_c98af.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c98af
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9fbaf && [1/2] Building C object CMakeFiles/cmTC_9fbaf.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_9fbaf
+
+
+
+Determining if the function pfm_initialize exists in the pfm passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8a98a && [1/2] Building C object CMakeFiles/cmTC_8a98a.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_8a98a
+
+
+
+Determining if the include file perfmon/perf_event.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_31f4f && [1/2] Building C object CMakeFiles/cmTC_31f4f.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_31f4f
+
+
+
+Determining if the include file perfmon/pfmlib.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d6c56 && [1/2] Building C object CMakeFiles/cmTC_d6c56.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d6c56
+
+
+
+Determining if the include file perfmon/pfmlib_perf_event.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_512a2 && [1/2] Building C object CMakeFiles/cmTC_512a2.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_512a2
+
+
+
+Performing C++ SOURCE FILE Test COMPILE_WITH_CYCLES succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0f7e3 && [1/2] Building CXX object CMakeFiles/cmTC_0f7e3.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_0f7e3
+
+
+Source file was:
+
+        #include <perfmon/perf_event.h>
+        int main() {
+          perf_branch_entry entry;
+          entry.cycles = 2;
+          return 0;
+        }
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c01c9 && [1/2] Building C object CMakeFiles/cmTC_c01c9.dir/src.c.o
+[2/2] Linking C executable cmTC_c01c9
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the compress2 exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_34bc3 && [1/2] Building C object CMakeFiles/cmTC_34bc3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_34bc3
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <zlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef compress2
+  return ((int*)(&compress2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the xmlReadMemory exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_80c9a && [1/2] Building C object CMakeFiles/cmTC_80c9a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_80c9a
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <libxml/xmlreader.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef xmlReadMemory
+  return ((int*)(&xmlReadMemory))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file histedit.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_46961 && [1/2] Building C object CMakeFiles/cmTC_46961.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_46961
+
+
+
+Performing C SOURCE FILE Test Terminfo_LINKABLE succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b1315 && [1/2] Building C object CMakeFiles/cmTC_b1315.dir/src.c.o
+[2/2] Linking C executable cmTC_b1315
+
+
+Source file was:
+
+    int setupterm(char *term, int filedes, int *errret);
+    int main(void) { return setupterm(0, 0, 0); }
+Determining if the arc4random exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b71b3 && [1/2] Building C object CMakeFiles/cmTC_b71b3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b71b3
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the backtrace exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ad804 && [1/2] Building C object CMakeFiles/cmTC_ad804.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ad804
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __register_frame exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_90d5e && [1/2] Building C object CMakeFiles/cmTC_90d5e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_90d5e
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/llvm/cmake/unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __register_frame
+  return ((int*)(&__register_frame))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __deregister_frame exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5cb04 && [1/2] Building C object CMakeFiles/cmTC_5cb04.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5cb04
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/llvm/cmake/unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __deregister_frame
+  return ((int*)(&__deregister_frame))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ddb94 && [1/2] Building C object CMakeFiles/cmTC_ddb94.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ddb94
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a98d7 && [1/2] Building C object CMakeFiles/cmTC_a98d7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a98d7
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4798d && [1/2] Building C object CMakeFiles/cmTC_4798d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4798d
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_27d7e && [1/2] Building C object CMakeFiles/cmTC_27d7e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_27d7e
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3d786 && [1/2] Building C object CMakeFiles/cmTC_3d786.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3d786
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isatty exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a2b16 && [1/2] Building C object CMakeFiles/cmTC_a2b16.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a2b16
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimens exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5e33c && [1/2] Building C object CMakeFiles/cmTC_5e33c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5e33c
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimes exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_66960 && [1/2] Building C object CMakeFiles/cmTC_66960.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_66960
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaltstack exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_59c13 && [1/2] Building C object CMakeFiles/cmTC_59c13.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_59c13
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaltstack
+  return ((int*)(&sigaltstack))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lseek64 exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_df262 && [1/2] Building C object CMakeFiles/cmTC_df262.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_df262
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lseek64
+  return ((int*)(&lseek64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e720e && [1/2] Building C object CMakeFiles/cmTC_e720e.dir/CheckSymbolExists.c.o
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:3: warning: ‘mallinfo’ is deprecated [-Wdeprecated-declarations]
+    8 |   return ((int*)(&mallinfo))[argc];
+      |   ^~~~~~
+In file included from /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:
+/usr/include/malloc.h:114:24: note: declared here
+  114 | extern struct mallinfo mallinfo (void) __THROW __MALLOC_DEPRECATED;
+      |                        ^~~~~~~~
+[2/2] Linking C executable cmTC_e720e
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo2 exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_32d9b && [1/2] Building C object CMakeFiles/cmTC_32d9b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_32d9b
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo2
+  return ((int*)(&mallinfo2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_78087 && [1/2] Building C object CMakeFiles/cmTC_78087.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_78087
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8fbee && [1/2] Building C object CMakeFiles/cmTC_8fbee.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8fbee
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_347d2 && [1/2] Building C object CMakeFiles/cmTC_347d2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_347d2
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sbrk exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e7ce6 && [1/2] Building C object CMakeFiles/cmTC_e7ce6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e7ce6
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_7ebde && [1/2] Building C object CMakeFiles/cmTC_7ebde.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7ebde
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_bfaef && [1/2] Building C object CMakeFiles/cmTC_bfaef.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_bfaef
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6a773 && [1/2] Building C object CMakeFiles/cmTC_6a773.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6a773
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_09a0e && [1/2] Building C object CMakeFiles/cmTC_09a0e.dir/src.c.o
+[2/2] Linking C executable cmTC_09a0e
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtim.tv_nsec);
+  return 0;
+}
+
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_81c37 && [1/2] Building C object CMakeFiles/cmTC_81c37.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_81c37
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_getname_np exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b7fbf && [1/2] Building C object CMakeFiles/cmTC_b7fbf.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b7fbf
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_getname_np
+  return ((int*)(&pthread_getname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_setname_np exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e57e3 && [1/2] Building C object CMakeFiles/cmTC_e57e3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e57e3
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d5bd4 && [1/2] Building C object CMakeFiles/cmTC_d5bd4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d5bd4
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dladdr exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_fd024 && [1/2] Building C object CMakeFiles/cmTC_fd024.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fd024
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dladdr
+  return ((int*)(&dladdr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_13fed && [1/2] Building CXX object CMakeFiles/cmTC_13fed.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_13fed
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> x;
+std::atomic<short> y;
+std::atomic<char> z;
+int main() {
+  ++z;
+  ++y;
+  return ++x;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a3a64 && [1/2] Building CXX object CMakeFiles/cmTC_a3a64.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_a3a64
+
+
+Source file was:
+
+#include <atomic>
+#include <cstdint>
+std::atomic<uint64_t> x (0);
+int main() {
+  uint64_t i = x.load(std::memory_order_relaxed);
+  (void)i;
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_257eb && [1/2] Building CXX object CMakeFiles/cmTC_257eb.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_257eb
+
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_89468 && [1/2] Building CXX object CMakeFiles/cmTC_89468.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_89468
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_MAYBE_UNINITIALIZED succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_75be9 && [1/2] Building CXX object CMakeFiles/cmTC_75be9.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_75be9
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_2441b && [1/2] Building C object CMakeFiles/cmTC_2441b.dir/src.c.o
+[2/2] Linking C executable cmTC_2441b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_71da3 && [1/2] Building CXX object CMakeFiles/cmTC_71da3.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_71da3
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FNO_SEMANTIC_INTERPOSITION succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_cf9c4 && [1/2] Building C object CMakeFiles/cmTC_cf9c4.dir/src.c.o
+[2/2] Linking C executable cmTC_cf9c4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FNO_SEMANTIC_INTERPOSITION succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_2eca6 && [1/2] Building CXX object CMakeFiles/cmTC_2eca6.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_2eca6
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6e176 && [1/2] Building CXX object CMakeFiles/cmTC_6e176.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_6e176
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d9dcc && [1/2] Building C object CMakeFiles/cmTC_d9dcc.dir/src.c.o
+[2/2] Linking C executable cmTC_d9dcc
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_72516 && [1/2] Building CXX object CMakeFiles/cmTC_72516.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_72516
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f6115 && [1/2] Building CXX object CMakeFiles/cmTC_f6115.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_f6115
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a4a2b && [1/2] Building C object CMakeFiles/cmTC_a4a2b.dir/src.c.o
+[2/2] Linking C executable cmTC_a4a2b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_23766 && [1/2] Building CXX object CMakeFiles/cmTC_23766.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_23766
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a30af && [1/2] Building CXX object CMakeFiles/cmTC_a30af.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_a30af
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_REDUNDANT_MOVE_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_17f99 && [1/2] Building CXX object CMakeFiles/cmTC_17f99.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_17f99
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_PESSIMIZING_MOVE_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0681a && [1/2] Building CXX object CMakeFiles/cmTC_0681a.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_0681a
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_dd11f && [1/2] Building CXX object CMakeFiles/cmTC_dd11f.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_dd11f
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_be6fd && [1/2] Building CXX object CMakeFiles/cmTC_be6fd.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_be6fd
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WSUGGEST_OVERRIDE_ALLOWS_ONLY_FINAL succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_93e38 && [1/2] Building CXX object CMakeFiles/cmTC_93e38.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_93e38
+
+
+Source file was:
+class base {public: virtual void anchor();};
+                               class derived : base {public: void anchor() final;};
+                               int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISLEADING_INDENTATION_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d269c && [1/2] Building CXX object CMakeFiles/cmTC_d269c.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_d269c
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CTAD_MAYBE_UNSPPORTED_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_7e21c && [1/2] Building CXX object CMakeFiles/cmTC_7e21c.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_7e21c
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FNO_FUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_08e81 && [1/2] Building C object CMakeFiles/cmTC_08e81.dir/src.c.o
+[2/2] Linking C executable cmTC_08e81
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9d11b && [1/2] Building C object CMakeFiles/cmTC_9d11b.dir/src.c.o
+[2/2] Linking C executable cmTC_9d11b
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3a700 && [1/2] Building CXX object CMakeFiles/cmTC_3a700.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_3a700
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_961e6 && [1/2] Building C object CMakeFiles/cmTC_961e6.dir/src.c.o
+[2/2] Linking C executable cmTC_961e6
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a79e6 && [1/2] Building CXX object CMakeFiles/cmTC_a79e6.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_a79e6
+
+
+Source file was:
+int main() { return 0; }
+Determining if the __x86_64__ exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_afc34 && [1/2] Building C object CMakeFiles/cmTC_afc34.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_afc34
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __x86_64__
+  return ((int*)(&__x86_64__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WALL_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_dc811 && [1/2] Building CXX object CMakeFiles/cmTC_dc811.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_dc811
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WERROR_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ac4e7 && [1/2] Building CXX object CMakeFiles/cmTC_ac4e7.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_ac4e7
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WCAST_QUAL_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3bc8f && [1/2] Building CXX object CMakeFiles/cmTC_3bc8f.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_3bc8f
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WIMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_7d590 && [1/2] Building CXX object CMakeFiles/cmTC_7d590.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_7d590
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WSIGN_COMPARE_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1a576 && [1/2] Building CXX object CMakeFiles/cmTC_1a576.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_1a576
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WEXTRA_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_2fdc9 && [1/2] Building CXX object CMakeFiles/cmTC_2fdc9.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_2fdc9
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WPEDANTIC_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8052a && [1/2] Building CXX object CMakeFiles/cmTC_8052a.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_8052a
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WMAYBE_UNINITIALIZED_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3163a && [1/2] Building CXX object CMakeFiles/cmTC_3163a.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_3163a
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_STD_CPP17_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0790f && [1/2] Building CXX object CMakeFiles/cmTC_0790f.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_0790f
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_FNO_EXCEPTIONS_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_300e7 && [1/2] Building CXX object CMakeFiles/cmTC_300e7.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_300e7
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_FNO_RTTI_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c4ae5 && [1/2] Building CXX object CMakeFiles/cmTC_c4ae5.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_c4ae5
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WCLASS_MEMACCESS_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5c5a4 && [1/2] Building CXX object CMakeFiles/cmTC_5c5a4.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_5c5a4
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WFRAME_ADDRESS_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3327a && [1/2] Building CXX object CMakeFiles/cmTC_3327a.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_3327a
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WSTRICT_ALIASING_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_dbc9a && [1/2] Building CXX object CMakeFiles/cmTC_dbc9a.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_dbc9a
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WSTRINGOP_OVERFLOW_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a0947 && [1/2] Building CXX object CMakeFiles/cmTC_a0947.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_a0947
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WSTRINGOP_TRUNCATION_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_829dd && [1/2] Building CXX object CMakeFiles/cmTC_829dd.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_829dd
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WSWITCH_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_50e94 && [1/2] Building CXX object CMakeFiles/cmTC_50e94.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_50e94
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WUNINITIALIZED_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b3d10 && [1/2] Building CXX object CMakeFiles/cmTC_b3d10.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_b3d10
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WCAST_QUAL_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_676f4 && [1/2] Building CXX object CMakeFiles/cmTC_676f4.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_676f4
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_MSSE2_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_bd5b5 && [1/2] Building CXX object CMakeFiles/cmTC_bd5b5.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_bd5b5
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_FTLS_MODEL_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0a48d && [1/2] Building CXX object CMakeFiles/cmTC_0a48d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_0a48d
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_M32_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b4ab0 && [1/2] Building C object CMakeFiles/cmTC_b4ab0.dir/src.c.o
+[2/2] Linking C executable cmTC_b4ab0
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the shm_open exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d6911 && [1/2] Building C object CMakeFiles/cmTC_d6911.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d6911
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef shm_open
+  return ((int*)(&shm_open))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file xmmintrin.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_27947 && [1/2] Building C object CMakeFiles/cmTC_27947.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_27947
+
+
+
+Performing C++ SOURCE FILE Test LIBOMP_HAVE__MM_MALLOC succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_845c6 && [1/2] Building CXX object CMakeFiles/cmTC_845c6.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_845c6
+
+
+Source file was:
+// check for _mm_malloc
+    #ifdef LIBOMP_HAVE_XMMINTRIN_H
+    #include <xmmintrin.h>
+    #endif
+    int main() { void *ptr = _mm_malloc(sizeof(int) * 1000, 64); _mm_free(ptr); return 0; }
+Determining if the aligned_alloc exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c760c && [1/2] Building C object CMakeFiles/cmTC_c760c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c760c
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef aligned_alloc
+  return ((int*)(&aligned_alloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8068f && [1/2] Building C object CMakeFiles/cmTC_8068f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8068f
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C Linker Flag test LIBOMP_HAVE_X_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/link_flag_check_LIBOMP_HAVE_X_FLAG/build
+
+Run Build Command(s):/usr/bin/ninja && [1/2] Building C object CMakeFiles/foo.dir/src_to_link.c.o
+[2/2] Linking C shared library libfoo.so
+
+
+Source file was:
+int foo(int a) { return a*a; }
+Performing C Linker Flag test LIBOMP_HAVE_AS_NEEDED_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/link_flag_check_LIBOMP_HAVE_AS_NEEDED_FLAG/build
+
+Run Build Command(s):/usr/bin/ninja && [1/2] Building C object CMakeFiles/foo.dir/src_to_link.c.o
+[2/2] Linking C shared library libfoo.so
+
+
+Source file was:
+int foo(int a) { return a*a; }
+Performing C Linker Flag test LIBOMP_HAVE_VERSION_SCRIPT_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/link_flag_check_LIBOMP_HAVE_VERSION_SCRIPT_FLAG/build
+
+Run Build Command(s):/usr/bin/ninja && [1/2] Building C object CMakeFiles/foo.dir/src_to_link.c.o
+[2/2] Linking C shared library libfoo.so
+
+
+Source file was:
+int foo(int a) { return a*a; }
+Performing C Linker Flag test LIBOMP_HAVE_STATIC_LIBGCC_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/link_flag_check_LIBOMP_HAVE_STATIC_LIBGCC_FLAG/build
+
+Run Build Command(s):/usr/bin/ninja && [1/2] Building C object CMakeFiles/foo.dir/src_to_link.c.o
+[2/2] Linking C shared library libfoo.so
+
+
+Source file was:
+int foo(int a) { return a*a; }
+Performing C Linker Flag test LIBOMP_HAVE_Z_NOEXECSTACK_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/link_flag_check_LIBOMP_HAVE_Z_NOEXECSTACK_FLAG/build
+
+Run Build Command(s):/usr/bin/ninja && [1/2] Building C object CMakeFiles/foo.dir/src_to_link.c.o
+[2/2] Linking C shared library libfoo.so
+
+
+Source file was:
+int foo(int a) { return a*a; }
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_00554 && [1/2] Building C object CMakeFiles/cmTC_00554.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_00554
+
+
+
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_ATTRIBUTE_RTM succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4d103 && [1/2] Building CXX object CMakeFiles/cmTC_4d103.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_4d103
+
+
+Source file was:
+__attribute__((target("rtm")))
+                             int main() {return 0;}
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_ATTRIBUTE_WAITPKG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9d23b && [1/2] Building CXX object CMakeFiles/cmTC_9d23b.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_9d23b
+
+
+Source file was:
+__attribute__((target("waitpkg")))
+                            int main() {return 0;}
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WAITPKG_INTRINSICS succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3e30e && [1/2] Building CXX object CMakeFiles/cmTC_3e30e.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_3e30e
+
+
+Source file was:
+// check for attribute and wait pkg intrinsics
+      #ifdef IMMINTRIN_H
+      #include <immintrin.h>
+      #endif
+      #ifdef INTRIN_H
+      #include <intrin.h>
+      #endif
+      #ifdef ATTRIBUTE_WAITPKG
+      __attribute__((target("waitpkg")))
+      #endif
+      static inline int __kmp_umwait(unsigned hint, unsigned long long counter) {
+        return _umwait(hint, counter);
+      }
+      int main() { int a = __kmp_umwait(0, 1000); return a; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_RTM_INTRINSICS succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_32ec6 && [1/2] Building CXX object CMakeFiles/cmTC_32ec6.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_32ec6
+
+
+Source file was:
+// check for attribute rtm and rtm intrinsics
+      #ifdef IMMINTRIN_H
+      #include <immintrin.h>
+      #endif
+      #ifdef INTRIN_H
+      #include <intrin.h>
+      #endif
+      #ifdef ATTRIBUTE_RTM
+      __attribute__((target("rtm")))
+      #endif
+      static inline int __kmp_xbegin() {
+        return _xbegin();
+      }
+      int main() { int a = __kmp_xbegin(); return a; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_VERSION_SYMBOLS succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4759d && [1/2] Building C object CMakeFiles/cmTC_4759d.dir/src.c.o
+[2/2] Linking C executable cmTC_4759d
+
+
+Source file was:
+#include <stdio.h>
+    void func1() { printf("Hello"); }
+    void func2() { printf("World"); }
+    __asm__(".symver func1, func@VER1");
+    __asm__(".symver func2, func@VER2");
+    int main(void) {
+      func1();
+      func2();
+      return 0;
+    }
+Performing C SOURCE FILE Test LIBOMP_HAVE___BUILTIN_FRAME_ADDRESS succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_09a9d && [1/2] Building C object CMakeFiles/cmTC_09a9d.dir/src.c.o
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c:2:9: warning: unused variable ‘p’ [-Wunused-variable]
+    2 |   void* p = __builtin_frame_address(0);
+      |         ^
+[2/2] Linking C executable cmTC_09a9d
+
+
+Source file was:
+int main(int argc, char** argv) {
+  void* p = __builtin_frame_address(0);
+  return 0;}
+Performing C SOURCE FILE Test LIBOMP_HAVE_WEAK_ATTRIBUTE succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5212b && [1/2] Building C object CMakeFiles/cmTC_5212b.dir/src.c.o
+[2/2] Linking C executable cmTC_5212b
+
+
+Source file was:
+__attribute__ ((weak)) int foo(int a) { return a*a; }
+  int main(int argc, char** argv) {
+  return foo(argc);}
+Determining if the function sqrt exists in the m passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_77589 && [1/2] Building C object CMakeFiles/cmTC_77589.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘sqrt’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.24/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.24/Modules/CheckFunctionExists.c:1:1: note: ‘sqrt’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+[2/2] Linking C executable cmTC_77589
+
+
+
+Determining if the function __atomic_load_1 exists in the atomic passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_87c6b && [1/2] Building C object CMakeFiles/cmTC_87c6b.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘__atomic_load_1’; expected ‘unsigned char(const volatile void *, int)’ [-Wbuiltin-declaration-mismatch]
+<command-line>: note: in definition of macro ‘CHECK_FUNCTION_EXISTS’
+[2/2] Linking C executable cmTC_87c6b
+
+
+
+Determining if the function __atomic_load_1 exists in the atomic passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_695ef && [1/2] Building C object CMakeFiles/cmTC_695ef.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘__atomic_load_1’; expected ‘unsigned char(const volatile void *, int)’ [-Wbuiltin-declaration-mismatch]
+<command-line>: note: in definition of macro ‘CHECK_FUNCTION_EXISTS’
+[2/2] Linking C executable cmTC_695ef
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4b5bf && [1/2] Building C object CMakeFiles/cmTC_4b5bf.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4b5bf
+
+
+
+Determining if files sys/inotify.h exist passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_70626 && [1/2] Building C object CMakeFiles/cmTC_70626.dir/HAVE_INOTIFY.c.o
+[2/2] Linking C executable cmTC_70626
+
+
+
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_IMPLICIT_FUNCTION_DECLARATION succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8af52 && [1/2] Building C object CMakeFiles/cmTC_8af52.dir/src.c.o
+[2/2] Linking C executable cmTC_8af52
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_DEPRECATED_COPY_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_23040 && [1/2] Building CXX object CMakeFiles/cmTC_23040.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_23040
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_CTAD_MAYBE_UNSUPPORTED_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_30448 && [1/2] Building CXX object CMakeFiles/cmTC_30448.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_30448
+
+
+Source file was:
+int main() { return 0; }
+Determining if the function shm_open exists in the rt passed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_af7fb && [1/2] Building C object CMakeFiles/cmTC_af7fb.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_af7fb
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5095c && [1/2] Building CXX object CMakeFiles/cmTC_5095c.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_5095c
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ee24e && [1/2] Building CXX object CMakeFiles/cmTC_ee24e.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_ee24e
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_efe26 && [1/2] Building CXX object CMakeFiles/cmTC_efe26.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_efe26
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_560dd && [1/2] Building CXX object CMakeFiles/cmTC_560dd.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_560dd
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d2e76 && [1/2] Building CXX object CMakeFiles/cmTC_d2e76.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_d2e76
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_fb631 && [1/2] Building CXX object CMakeFiles/cmTC_fb631.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_fb631
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_7f8b8 && [1/2] Building CXX object CMakeFiles/cmTC_7f8b8.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_7f8b8
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_fd3a9 && [1/2] Building CXX object CMakeFiles/cmTC_fd3a9.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_fd3a9
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_af895 && [1/2] Building CXX object CMakeFiles/cmTC_af895.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_af895
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FNO_EXCEPTIONS succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ebadf && [1/2] Building CXX object CMakeFiles/cmTC_ebadf.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_ebadf
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_dfa67 && [1/2] Building CXX object CMakeFiles/cmTC_dfa67.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_dfa67
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_dae87 && [1/2] Building CXX object CMakeFiles/cmTC_dae87.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_dae87
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_DEPRECATED_COPY_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_62508 && [1/2] Building CXX object CMakeFiles/cmTC_62508.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_62508
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_CTAD_MAYBE_UNSUPPORTED_FLAG succeeded with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_367b2 && [1/2] Building CXX object CMakeFiles/cmTC_367b2.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_367b2
+
+
+Source file was:
+int main() { return 0; }

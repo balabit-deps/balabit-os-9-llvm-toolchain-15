@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/runtimes/builtins-clobber-stamp"
+		},
+		{
+			"file" : "/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/runtimes/CMakeFiles/builtins-clean"
+		},
+		{
+			"file" : "/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/runtimes/builtins-clobber-stamp.rule"
+		},
+		{
+			"file" : "/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/runtimes/CMakeFiles/builtins-clean.rule"
+		},
+		{
+			"file" : "/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/runtimes/builtins-stamps/builtins-clean.rule"
+		},
+		{
+			"file" : "/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/runtimes/builtins-stamps/builtins-configure.rule"
+		},
+		{
+			"file" : "/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/runtimes/builtins-stamps/builtins-patch.rule"
+		},
+		{
+			"file" : "/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/runtimes/builtins-stamps/builtins-update.rule"
+		},
+		{
+			"file" : "/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/runtimes/builtins-stamps/builtins-download.rule"
+		},
+		{
+			"file" : "/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/runtimes/builtins-stamps/builtins-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"builtins"
+		],
+		"name" : "builtins-clean"
+	}
+}
