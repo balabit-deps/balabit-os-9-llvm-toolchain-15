@@ -1,0 +1,712 @@
+Determining if the include file malloc/malloc.h exists failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8e6b5 && [1/2] Building C object CMakeFiles/cmTC_8e6b5.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_8e6b5.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_8e6b5.dir/CheckIncludeFile.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: malloc/malloc.h: Aucun fichier ou dossier de ce type
+    1 | #include <malloc/malloc.h>
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file valgrind/valgrind.h exists failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_17591 && [1/2] Building C object CMakeFiles/cmTC_17591.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_17591.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_17591.dir/CheckIncludeFile.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: valgrind/valgrind.h: Aucun fichier ou dossier de ce type
+    1 | #include <valgrind/valgrind.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file mach/mach.h exists failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5cb0d && [1/2] Building C object CMakeFiles/cmTC_5cb0d.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_5cb0d.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_5cb0d.dir/CheckIncludeFile.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: mach/mach.h: Aucun fichier ou dossier de ce type
+    1 | #include <mach/mach.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the include file CrashReporterClient.h exists failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1b66b && [1/2] Building C object CMakeFiles/cmTC_1b66b.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_1b66b.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_1b66b.dir/CheckIncludeFile.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: CrashReporterClient.h: Aucun fichier ou dossier de ce type
+    1 | #include <CrashReporterClient.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function xar_open exists in the xar failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_76ff0 && [1/2] Building C object CMakeFiles/cmTC_76ff0.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_76ff0
+FAILED: cmTC_76ff0 
+: && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=xar_open -O3 -DNDEBUG  CMakeFiles/cmTC_76ff0.dir/CheckFunctionExists.c.o -o cmTC_76ff0  -lxar  -lm && :
+/usr/bin/ld : ne peut pas trouver -lxar : Aucun fichier ou dossier de ce type
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b8684 && [1/2] Building C object CMakeFiles/cmTC_b8684.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b8684.dir/src.c.o 
+/usr/bin/cc -DC_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW  -O3 -DNDEBUG   -Werror=unguarded-availability-new -o CMakeFiles/cmTC_b8684.dir/src.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c
+cc1: error: '-Werror=unguarded-availability-new': no option '-Wunguarded-availability-new'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the __unw_add_dynamic_fde exist failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_52063 && [1/2] Building C object CMakeFiles/cmTC_52063.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_52063
+FAILED: cmTC_52063 
+: && /usr/bin/cc -O3 -DNDEBUG  CMakeFiles/cmTC_52063.dir/CheckSymbolExists.c.o -o cmTC_52063  -lm && :
+/usr/bin/ld : CMakeFiles/cmTC_52063.dir/CheckSymbolExists.c.o : dans la fonction « main » :
+CheckSymbolExists.c:(.text.startup+0x3) : référence indéfinie vers « __unw_add_dynamic_fde »
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/llvm/cmake/unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __unw_add_dynamic_fde
+  return ((int*)(&__unw_add_dynamic_fde))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallctl exist failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f19c3 && [1/2] Building C object CMakeFiles/cmTC_f19c3.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_f19c3.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_f19c3.dir/CheckSymbolExists.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: malloc_np.h: Aucun fichier ou dossier de ce type
+    2 | #include <malloc_np.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc_np.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallctl
+  return ((int*)(&mallctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the malloc_zone_statistics exist failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a8053 && [1/2] Building C object CMakeFiles/cmTC_a8053.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_a8053.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_a8053.dir/CheckSymbolExists.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: malloc/malloc.h: Aucun fichier ou dossier de ce type
+    2 | #include <malloc/malloc.h>
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_zone_statistics
+  return ((int*)(&malloc_zone_statistics))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_s exist failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e4595 && [1/2] Building C object CMakeFiles/cmTC_e4595.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_e4595.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_e4595.dir/CheckSymbolExists.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strerror_s’ undeclared (first use in this function); did you mean ‘strerror_l’?
+    8 |   return ((int*)(&strerror_s))[argc];
+      |                   ^~~~~~~~~~
+      |                   strerror_l
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_s
+  return ((int*)(&strerror_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b67bc && [1/2] Building C object CMakeFiles/cmTC_b67bc.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b67bc.dir/src.c.o 
+/usr/bin/cc -DHAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC  -O3 -DNDEBUG -o CMakeFiles/cmTC_b67bc.dir/src.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c:7:34: error: ‘struct stat’ has no member named ‘st_mtimespec’
+    7 |   (void)sizeof(((struct stat *)0)->st_mtimespec.tv_nsec);
+      |                                  ^~
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtimespec.tv_nsec);
+  return 0;
+}
+
+Determining if the proc_pid_rusage exist failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_06418 && [1/2] Building C object CMakeFiles/cmTC_06418.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_06418.dir/CheckSymbolExists.c.o 
+/usr/bin/cc -D_GNU_SOURCE  -O3 -DNDEBUG -o CMakeFiles/cmTC_06418.dir/CheckSymbolExists.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: libproc.h: Aucun fichier ou dossier de ce type
+    2 | #include <libproc.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <libproc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef proc_pid_rusage
+  return ((int*)(&proc_pid_rusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test SUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c20ea && [1/2] Building CXX object CMakeFiles/cmTC_c20ea.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_c20ea.dir/src.cxx.o 
+/usr/bin/c++ -DSUPPORTS_GNU_ZERO_VARIADIC_MACRO_ARGUMENTS_FLAG  -O3 -DNDEBUG   -Wgnu-zero-variadic-macro-arguments -std=c++17 -o CMakeFiles/cmTC_c20ea.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wgnu-zero-variadic-macro-arguments'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b560f && [1/2] Building CXX object CMakeFiles/cmTC_b560f.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_b560f.dir/src.cxx.o 
+/usr/bin/c++ -DCXX_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time  -O3 -DNDEBUG   -Werror -Werror=unguarded-availability-new -std=c++17 -o CMakeFiles/cmTC_b560f.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: '-Werror=unguarded-availability-new': no option '-Wunguarded-availability-new'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_CXX98_COMPAT_EXTRA_SEMI_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0ad60 && [1/2] Building C object CMakeFiles/cmTC_0ad60.dir/src.c.o
+FAILED: CMakeFiles/cmTC_0ad60.dir/src.c.o 
+/usr/bin/cc -DC_SUPPORTS_CXX98_COMPAT_EXTRA_SEMI_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long  -O3 -DNDEBUG   -Werror -Wc++98-compat-extra-semi -o CMakeFiles/cmTC_0ad60.dir/src.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-Wc++98-compat-extra-semi'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CXX98_COMPAT_EXTRA_SEMI_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a1f72 && [1/2] Building CXX object CMakeFiles/cmTC_a1f72.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_a1f72.dir/src.cxx.o 
+/usr/bin/c++ -DCXX_SUPPORTS_CXX98_COMPAT_EXTRA_SEMI_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long  -O3 -DNDEBUG   -Werror -Wc++98-compat-extra-semi -std=c++17 -o CMakeFiles/cmTC_a1f72.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wc++98-compat-extra-semi'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_08e87 && [1/2] Building C object CMakeFiles/cmTC_08e87.dir/src.c.o
+FAILED: CMakeFiles/cmTC_08e87.dir/src.c.o 
+/usr/bin/cc -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough  -O3 -DNDEBUG   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_08e87.dir/src.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-Wcovered-switch-default'; did you mean '-Wno-switch-default'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e7309 && [1/2] Building CXX object CMakeFiles/cmTC_e7309.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_e7309.dir/src.cxx.o 
+/usr/bin/c++ -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough  -O3 -DNDEBUG   -Werror -Wcovered-switch-default -std=c++17 -o CMakeFiles/cmTC_e7309.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wcovered-switch-default'; did you mean '-Wno-switch-default'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b44fb && [1/2] Building CXX object CMakeFiles/cmTC_b44fb.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_b44fb.dir/src.cxx.o 
+/usr/bin/c++ -DCXX_WONT_WARN_ON_FINAL_NONVIRTUALDTOR -D_GNU_SOURCE  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type  -Werror=non-virtual-dtor -O3 -DNDEBUG -std=c++17 -o CMakeFiles/cmTC_b44fb.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx:2:36: error: ‘class base’ has virtual functions and accessible non-virtual destructor [-Werror=non-virtual-dtor]
+    2 |                              class base {friend f; public: virtual void anchor();protected: ~base();};
+      |                                    ^~~~
+cc1plus: some warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+class f {};
+                             class base {friend f; public: virtual void anchor();protected: ~base();};
+                             int main() { return 0; }
+Performing C SOURCE FILE Test C_WCOMMENT_ALLOWS_LINE_WRAP failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_47851 && [1/2] Building C object CMakeFiles/cmTC_47851.dir/src.c.o
+FAILED: CMakeFiles/cmTC_47851.dir/src.c.o 
+/usr/bin/cc -DC_WCOMMENT_ALLOWS_LINE_WRAP -D_GNU_SOURCE  -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough  -Werror -Wcomment -O3 -DNDEBUG -o CMakeFiles/cmTC_47851.dir/src.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c:1:1: error: multi-line comment [-Werror=comment]
+    1 | // \
+      | ^
+cc1: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+// \
+//
+int main(void) {return 0;}
+Performing C SOURCE FILE Test C_SUPPORTS_STRING_CONVERSION_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a7942 && [1/2] Building C object CMakeFiles/cmTC_a7942.dir/src.c.o
+FAILED: CMakeFiles/cmTC_a7942.dir/src.c.o 
+/usr/bin/cc -DC_SUPPORTS_STRING_CONVERSION_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment  -O3 -DNDEBUG   -Werror -Wstring-conversion -o CMakeFiles/cmTC_a7942.dir/src.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-Wstring-conversion'; did you mean '-Wsign-conversion'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_STRING_CONVERSION_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_71cf6 && [1/2] Building CXX object CMakeFiles/cmTC_71cf6.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_71cf6.dir/src.cxx.o 
+/usr/bin/c++ -DCXX_SUPPORTS_STRING_CONVERSION_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment  -O3 -DNDEBUG   -Werror -Wstring-conversion -std=c++17 -o CMakeFiles/cmTC_71cf6.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wstring-conversion'; did you mean '-Wsign-conversion'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_CTAD_MAYBE_UNSPPORTED_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_31ea4 && [1/2] Building C object CMakeFiles/cmTC_31ea4.dir/src.c.o
+FAILED: CMakeFiles/cmTC_31ea4.dir/src.c.o 
+/usr/bin/cc -DC_SUPPORTS_CTAD_MAYBE_UNSPPORTED_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment  -O3 -DNDEBUG   -Werror -Wctad-maybe-unsupported -o CMakeFiles/cmTC_31ea4.dir/src.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c
+cc1: error: command-line option '-Wctad-maybe-unsupported' is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test LINKER_SUPPORTS_COLOR_DIAGNOSTICS failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_be4b3 && [1/2] Building CXX object CMakeFiles/cmTC_be4b3.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_be4b3
+FAILED: cmTC_be4b3 
+: && /usr/bin/c++ -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color  -O3 -DNDEBUG -Wl,--color-diagnostics CMakeFiles/cmTC_be4b3.dir/src.cxx.o -o cmTC_be4b3  -lm && :
+/usr/bin/ld: unrecognized option '--color-diagnostics'
+/usr/bin/ld: use the --help option for usage information
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Determining if the os_signpost_interval_begin exist failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9047c && [1/2] Building C object CMakeFiles/cmTC_9047c.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_9047c.dir/CheckSymbolExists.c.o 
+/usr/bin/cc -D_GNU_SOURCE  -fPIC -fno-semantic-interposition -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections  -O3 -DNDEBUG -o CMakeFiles/cmTC_9047c.dir/CheckSymbolExists.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: os/signpost.h: Aucun fichier ou dossier de ce type
+    2 | #include <os/signpost.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <os/signpost.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef os_signpost_interval_begin
+  return ((int*)(&os_signpost_interval_begin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAS_WERROR_GLOBAL_CTORS failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3c5ae && [1/2] Building CXX object CMakeFiles/cmTC_3c5ae.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_3c5ae.dir/src.cxx.o 
+/usr/bin/c++ -DHAS_WERROR_GLOBAL_CTORS  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections  -O3 -DNDEBUG   -Werror=global-constructors -std=c++17 -o CMakeFiles/cmTC_3c5ae.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: '-Werror=global-constructors': no option '-Wglobal-constructors'; did you mean '-felide-constructors'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WFORMAT_PEDANTIC_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_2ece4 && [1/2] Building CXX object CMakeFiles/cmTC_2ece4.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_2ece4.dir/src.cxx.o 
+/usr/bin/c++ -DOPENMP_HAVE_WFORMAT_PEDANTIC_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections  -O3 -DNDEBUG   -Wformat-pedantic -std=c++17 -o CMakeFiles/cmTC_2ece4.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wformat-pedantic'; did you mean '-Wno-pedantic'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test OPENMP_HAVE_WENUM_CONSTEXPR_CONVERSION_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6c31a && [1/2] Building CXX object CMakeFiles/cmTC_6c31a.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_6c31a.dir/src.cxx.o 
+/usr/bin/c++ -DOPENMP_HAVE_WENUM_CONSTEXPR_CONVERSION_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections  -O3 -DNDEBUG   -Wenum-constexpr-conversion -std=c++17 -o CMakeFiles/cmTC_6c31a.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wenum-constexpr-conversion'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WCOVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5c34c && [1/2] Building CXX object CMakeFiles/cmTC_5c34c.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_5c34c.dir/src.cxx.o 
+/usr/bin/c++ -DLIBOMP_HAVE_WCOVERED_SWITCH_DEFAULT_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Wall -Wcast-qual -Wimplicit-fallthrough -Wsign-compare -Wno-extra -Wno-pedantic -Wno-maybe-uninitialized -std=c++17  -O3 -DNDEBUG   -Wcovered-switch-default -std=c++17 -o CMakeFiles/cmTC_5c34c.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wcovered-switch-default'; did you mean '-Wno-switch-default'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WRETURN_TYPE_C_LINKAGE_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6b683 && [1/2] Building CXX object CMakeFiles/cmTC_6b683.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_6b683.dir/src.cxx.o 
+/usr/bin/c++ -DLIBOMP_HAVE_WRETURN_TYPE_C_LINKAGE_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Wall -Wcast-qual -Wimplicit-fallthrough -Wsign-compare -Wno-extra -Wno-pedantic -Wno-maybe-uninitialized -std=c++17  -O3 -DNDEBUG   -Wreturn-type-c-linkage -std=c++17 -o CMakeFiles/cmTC_6b683.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wreturn-type-c-linkage'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_WINT_TO_VOID_POINTER_CAST_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_46b9b && [1/2] Building CXX object CMakeFiles/cmTC_46b9b.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_46b9b.dir/src.cxx.o 
+/usr/bin/c++ -DLIBOMP_HAVE_WINT_TO_VOID_POINTER_CAST_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Wall -Wcast-qual -Wimplicit-fallthrough -Wsign-compare -Wno-extra -Wno-pedantic -Wno-maybe-uninitialized -std=c++17  -O3 -DNDEBUG   -Wint-to-void-pointer-cast -std=c++17 -o CMakeFiles/cmTC_46b9b.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wint-to-void-pointer-cast'; did you mean '-Wint-to-pointer-cast'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_MMIC_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_fdcd8 && [1/2] Building C object CMakeFiles/cmTC_fdcd8.dir/src.c.o
+FAILED: CMakeFiles/cmTC_fdcd8.dir/src.c.o 
+/usr/bin/cc -DLIBOMP_HAVE_MMIC_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -Wall -Wcast-qual -Wimplicit-fallthrough -Wsign-compare -Wno-extra -Wno-pedantic -Wno-maybe-uninitialized -mmic -O3 -DNDEBUG   -mmic -o CMakeFiles/cmTC_fdcd8.dir/src.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option '-mmic'
+cc: error: unrecognized command-line option '-mmic'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e246c && [1/2] Building C object CMakeFiles/cmTC_e246c.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_e246c.dir/CheckSymbolExists.c.o 
+/usr/bin/cc -D_GNU_SOURCE  -fPIC -fno-semantic-interposition -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -Wall -Wcast-qual -Wimplicit-fallthrough -Wsign-compare -Wno-extra -Wno-pedantic -Wno-maybe-uninitialized  -O3 -DNDEBUG -o CMakeFiles/cmTC_e246c.dir/CheckSymbolExists.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function)
+    8 |   return ((int*)(&_aligned_malloc))[argc];
+      |                   ^~~~~~~~~~~~~~~
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test LIBOMP_HAVE_PSAPI failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_83b75 && [1/2] Building C object CMakeFiles/cmTC_83b75.dir/src.c.o
+FAILED: CMakeFiles/cmTC_83b75.dir/src.c.o 
+/usr/bin/cc -DLIBOMP_HAVE_PSAPI  -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -Wall -Wcast-qual -Wimplicit-fallthrough -Wsign-compare -Wno-extra -Wno-pedantic -Wno-maybe-uninitialized  -O3 -DNDEBUG -o CMakeFiles/cmTC_83b75.dir/src.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c
+/home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c:1:10: fatal error: windows.h: Aucun fichier ou dossier de ce type
+    1 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <windows.h>
+  #include <psapi.h>
+  int main(int artc, char** argv) {
+    return EnumProcessModules(NULL, NULL, 0, NULL);
+  }
+Determining if the function __atomic_load_1 exists failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_2d12c && [1/2] Building C object CMakeFiles/cmTC_2d12c.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘__atomic_load_1’; expected ‘unsigned char(const volatile void *, int)’ [-Wbuiltin-declaration-mismatch]
+<command-line>: note: in definition of macro ‘CHECK_FUNCTION_EXISTS’
+[2/2] Linking C executable cmTC_2d12c
+FAILED: cmTC_2d12c 
+: && /usr/bin/cc -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -Wall -Wcast-qual -Wimplicit-fallthrough -Wsign-compare -Wno-extra -Wno-pedantic -Wno-maybe-uninitialized -DCHECK_FUNCTION_EXISTS=__atomic_load_1 -O3 -DNDEBUG  CMakeFiles/cmTC_2d12c.dir/CheckFunctionExists.c.o -o cmTC_2d12c   && :
+/usr/bin/ld : CMakeFiles/cmTC_2d12c.dir/CheckFunctionExists.c.o : dans la fonction « main » :
+CheckFunctionExists.c:(.text.startup.main+0xc) : référence indéfinie vers « __atomic_load_1 »
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function __atomic_load_1 exists failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0dd54 && [1/2] Building C object CMakeFiles/cmTC_0dd54.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘__atomic_load_1’; expected ‘unsigned char(const volatile void *, int)’ [-Wbuiltin-declaration-mismatch]
+<command-line>: note: in definition of macro ‘CHECK_FUNCTION_EXISTS’
+[2/2] Linking C executable cmTC_0dd54
+FAILED: cmTC_0dd54 
+: && /usr/bin/cc -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -Wall -Wcast-qual -Wimplicit-fallthrough -Wsign-compare -Wno-extra -Wno-pedantic -Wno-maybe-uninitialized -DCHECK_FUNCTION_EXISTS=__atomic_load_1 -O3 -DNDEBUG  CMakeFiles/cmTC_0dd54.dir/CheckFunctionExists.c.o -o cmTC_0dd54  -lm && :
+/usr/bin/ld : CMakeFiles/cmTC_0dd54.dir/CheckFunctionExists.c.o : dans la fonction « main » :
+CheckFunctionExists.c:(.text.startup.main+0xc) : référence indéfinie vers « __atomic_load_1 »
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_91ce9 && [1/2] Building CXX object CMakeFiles/cmTC_91ce9.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_91ce9.dir/src.cxx.o 
+/usr/bin/c++ -DCXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -fno-common -Woverloaded-virtual -fno-strict-aliasing  -O3 -DNDEBUG   -Werror -Wnested-anon-types -std=c++17 -o CMakeFiles/cmTC_91ce9.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wnested-anon-types'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_MISMATCHED_TAGS failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1bc29 && [1/2] Building C object CMakeFiles/cmTC_1bc29.dir/src.c.o
+cc1: warning: '-Werror=' argument '-Werror=mismatched-tags' is not valid for C
+[2/2] Linking C executable cmTC_1bc29
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_GLOBAL_CONSTRUCTOR failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c6727 && [1/2] Building C object CMakeFiles/cmTC_c6727.dir/src.c.o
+FAILED: CMakeFiles/cmTC_c6727.dir/src.c.o 
+/usr/bin/cc -DC_SUPPORTS_WERROR_GLOBAL_CONSTRUCTOR  -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -fdiagnostics-color -ffunction-sections -fdata-sections -Werror=implicit-function-declaration  -O3 -DNDEBUG   -Werror -Werror=global-constructors -o CMakeFiles/cmTC_c6727.dir/src.c.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.c
+cc1: error: '-Werror=global-constructors': no option '-Wglobal-constructors'; did you mean '-felide-constructors'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_GLOBAL_CONSTRUCTOR failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0d438 && [1/2] Building CXX object CMakeFiles/cmTC_0d438.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_0d438.dir/src.cxx.o 
+/usr/bin/c++ -DCXX_SUPPORTS_WERROR_GLOBAL_CONSTRUCTOR  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections  -O3 -DNDEBUG   -Werror -Werror=global-constructors -std=c++17 -o CMakeFiles/cmTC_0d438.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: '-Werror=global-constructors': no option '-Wglobal-constructors'; did you mean '-felide-constructors'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_WARNING_WEAK_VTABLES failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6e73e && [1/2] Building CXX object CMakeFiles/cmTC_6e73e.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_6e73e.dir/src.cxx.o 
+/usr/bin/c++ -DCOMPILER_SUPPORTS_WARNING_WEAK_VTABLES  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections  -O3 -DNDEBUG   -Wweak-vtables -std=c++17 -o CMakeFiles/cmTC_6e73e.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wweak-vtables'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_STRING_CONVERSION_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f447d && [1/2] Building CXX object CMakeFiles/cmTC_f447d.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_f447d.dir/src.cxx.o 
+/usr/bin/c++ -DCXX_SUPPORTS_NO_STRING_CONVERSION_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Werror -Wno-deprecated-copy  -Wno-error -O3 -DNDEBUG   -Wstring-conversion -std=c++17 -o CMakeFiles/cmTC_f447d.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wstring-conversion'; did you mean '-Wsign-conversion'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_757d0 && [1/2] Building CXX object CMakeFiles/cmTC_757d0.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_757d0.dir/src.cxx.o 
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -O3 -DNDEBUG   -Wshorten-64-to-32 -std=c++17 -o CMakeFiles/cmTC_757d0.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e83fb && [1/2] Building CXX object CMakeFiles/cmTC_e83fb.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_e83fb.dir/src.cxx.o 
+/usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing  -wd654 -O3 -DNDEBUG   -wd654 -std=c++17 -o CMakeFiles/cmTC_e83fb.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-wd654'
+c++: error: unrecognized command-line option '-wd654'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_eba0f && [1/2] Building CXX object CMakeFiles/cmTC_eba0f.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_eba0f.dir/src.cxx.o 
+/usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety -O3 -DNDEBUG   -Wthread-safety -std=c++17 -o CMakeFiles/cmTC_eba0f.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wthread-safety'
+c++: error: unrecognized command-line option '-Wthread-safety'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_STRING_CONVERSION_FLAG failed with the following output:
+Change Dir: /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_cc386 && [1/2] Building CXX object CMakeFiles/cmTC_cc386.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_cc386.dir/src.cxx.o 
+/usr/bin/c++ -DCXX_SUPPORTS_NO_STRING_CONVERSION_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -Wctad-maybe-unsupported -fdiagnostics-color -ffunction-sections -fdata-sections -Werror -Wno-deprecated-copy  -Wno-error -O3 -DNDEBUG   -Wstring-conversion -std=c++17 -o CMakeFiles/cmTC_cc386.dir/src.cxx.o -c /home/sylvestre/dev/debian/pkg-llvm/llvm-toolchain/branches/llvm-project/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wstring-conversion'; did you mean '-Wsign-conversion'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
