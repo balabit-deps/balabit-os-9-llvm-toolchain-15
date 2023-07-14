@@ -157,3 +157,7 @@ protobuf_3.21.patch
 # upstream cherry-pick for mesa build
 add-arm-vcmpz-test.patch
 fix-mesa-build.patch
+CVE-2023-29932.patch
+CVE-2023-29933.patch
+CVE-2023-29934.patch
+CVE-2023-29939.patch

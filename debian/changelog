@@ -1,3 +1,25 @@
+llvm-toolchain-15 (1:15.0.7-0ubuntu0.22.04.3) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: canonicalize pass crashed with segmentation fault
+    - debian/patches/CVE-2023-29932.patch: Use default attributes for
+      intrinsics
+    - CVE-2023-29932
+  * SECURITY UPDATE: One shot bufferize crashed with segmentation fault
+    - debian/patches/CVE-2023-29933.patch: Fix bug in WhileOp analysis
+      verification
+    - CVE-2023-29933
+  * SECURITY UPDATE: convert-scf-to-spirv Pass crashed with segmentation
+    fault
+    - debian/patches/CVE-2023-29934.patch: Account for type conversion
+      failures in scf-to-spirv
+    - CVE-2023-29934
+  * SECURITY UPDATE: spirv-lower-abi-attrs crashes with segmentation faults
+    - debian/patches/CVE-2023-29939.patch: Fix crash in
+      spirv-lower-abi-attributes when the are no SPIR-V env attributes
+    - CVE-2023-29939
+
+ -- Nishit Majithia <nishit.majithia@canonical.com>  Fri, 14 Jul 2023 13:35:25 +0530
+
 llvm-toolchain-15 (1:15.0.7-0ubuntu0.22.04.2) jammy-security; urgency=medium
 
   * No-change rebuild in the -security pocket.
